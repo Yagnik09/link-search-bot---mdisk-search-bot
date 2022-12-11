@@ -27,7 +27,7 @@ async def start_handler(_, event: Message):
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
 					[InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')],
-					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")],
+					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/ATM_Film_HD")],
 					[InlineKeyboardButton("Donation", callback_data="Help_msg"),
                                         InlineKeyboardButton("About", callback_data="About_msg")]
 				]))
@@ -79,7 +79,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
 					],
 					[
-						InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")
+						InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/ATM_Film_HD")
 					],
 					[
 						InlineKeyboardButton("Home", callback_data="gohome")
@@ -98,7 +98,7 @@ async def button(bot, cmd: CallbackQuery):
 					InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
 					],
 					[
-					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")
+					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/ATM_Film_HD")
 					], 
                                         [
 					InlineKeyboardButton("Home", callback_data="gohome"),
@@ -118,7 +118,7 @@ async def button(bot, cmd: CallbackQuery):
 					InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
 					],
 					[
-					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots")
+					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/ATM_Film_HD")
 					],
 					[
 					InlineKeyboardButton("Donation", callback_data="Help_msg"),
