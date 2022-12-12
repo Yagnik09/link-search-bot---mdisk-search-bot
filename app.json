@@ -43,11 +43,6 @@
             "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -1001669443507",
             "required": false
         },
-        "FORCE_SUB":{
-            "description": "Set to true to force a new subscription",
-            "required": false,
-            "value": "False"
-        },
         "CHANNEL_ID": {
             "description": "Channel ID for Searching Messages."
         }
