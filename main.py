@@ -48,6 +48,9 @@ async def inline_handlers(_, event: Message):
     if event.text == '/start':
         return
     answers = f'**📂 Results For ➠ {event.text} \n\n➠ Type Only Movie Name.✍️\n➠ Use Google For Correct Spelling.🔍\n➠ Join @ATM_Film_HD\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n\n**'
+    
+    c = 0
+
     async for msg_list in AsyncIter(search):
         async for msg in msg_list:
             c += 1
